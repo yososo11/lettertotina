@@ -88,6 +88,12 @@
     height: 100%;
     overflow-y: auto;
 }
+.audio-player{
+    margin-bottom: 10px;
+}
+.audio-player audio{
+    width: 100%;
+}
 .meta{
     margin-bottom: 10px;
 }
