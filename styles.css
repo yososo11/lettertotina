@@ -177,7 +177,7 @@
     position: absolute;
     bottom: -40px;
     left: 50%;
-    width: 140px;
+    width: 150px;
     height: auto;
     transform: translate(-50%, -10%) translateX(0);
     opacity: 0;
@@ -186,6 +186,23 @@
 
 .flap .rose-image{
     transform: translate(-320%, -10%);
+    opacity: 1;
+}
+
+.tina-image{
+    position: absolute;
+    left: 50%;
+    width: 150px;
+    height: auto;
+    top: 60%;
+    transform: translate(-50%, 60%);
+    opacity: 0;
+    pointer-events: none;
+    transition: transform 1s ease-in-out 1s, opacity 0.7s ease-in-out 1s;
+}
+
+.flap .tina-image{
+    transform: translate(-320%, 180%);
     opacity: 1;
 }
 
@@ -245,7 +262,7 @@
   }
 
   .rose-image{
-    width: 180px;
+    width: 190px;
   }
 
   .flap .envelope .letter{
@@ -257,7 +274,16 @@
 
   .flap .rose-image{
     bottom: -40px;
-    transform: translate(-50%, 280%);
+    transform: translate(-50%, 340%);
+  }
+
+  .tina-image{
+    width: 190px;
+    top: 66%;
+  }
+
+  .flap .tina-image{
+    transform: translate(-50%, 330%);
   }
 }
 
@@ -313,7 +339,7 @@
   }
 
   .rose-image{
-    width: 160px;
+    width: 170px;
   }
 
   .flap .envelope .letter{
@@ -325,6 +351,15 @@
 
   .flap .rose-image{
     bottom: -48px;
-    transform: translate(-50%, 340%);
+    transform: translate(-50%, 420%);
+  }
+
+  .tina-image{
+    width: 170px;
+    top: 68%;
+  }
+
+  .flap .tina-image{
+    transform: translate(-50%, 380%);
   }
 }
