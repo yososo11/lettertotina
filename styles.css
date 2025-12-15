@@ -3,10 +3,10 @@
     --bg-color: #000000;          /* full-page background: black */
     --bg-envelope-color: #000000; /* wrapper background: black */
     --envelope-tab: #b30000;      /* darker red for flap */
-    --envelope-cover: #ff0000;    /* bright red for main envelope */
+    --envelope-cover: #ff0000c2;    /* bright red for main envelope */
     --shadow-color: rgba(0, 0, 0, 0.6);
     --txt-color: #000000;         /* text color: black */
-    --heart-color: rgb(252, 8, 231);
+    --heart-color: rgb(124, 0, 0);
   }
   body{
     margin: 0;
